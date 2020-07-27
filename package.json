@@ -1,0 +1,19 @@
+{
+  "name": "peer-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/labseu1-db/peer-server.git",
+  "author": "Thorben <bender.thorben0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "peer": "^0.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
